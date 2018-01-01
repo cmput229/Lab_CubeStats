@@ -1,4 +1,4 @@
-# CMPUT 229 Lab 3 - Subroutine Linkage, Stack Frames, Pointers, and Matrices
+# CMPUT 229 Lab 3 - Cube Statistics
 
 ## Information
 Subroutines are pervasive in large computer programs. They enable important features in large software systems: modularization, encapsulation, and reuse. Thus, it is important for a Computing Scientist to understand how subroutine linkage is implemented in assembly programs. Efficient implementation of subroutine linkage is also very important in the design and implementation of an optimizing compiler.
