@@ -2,7 +2,7 @@
 		CMPUT 229 Laboratory Assignment #3
 		==================================
 
-Final Mark:           /100 MARKS TOTAL +20
+Final Mark:           /100 MARKS TOTAL
                 =====
 Part 1:         _____ /80 Correct Statistic Generated
 
@@ -13,17 +13,17 @@ Part 3:		_____ /10 Style
 -------------------------------------------------------------------------
 Part 1: Correct Statistic Generated
 
- _____ /80 + 20 Bonus
+ _____ /80
 
-	Test 1 _____ /10 Test 2 _____ /10
+	Test 1 _____ /8  Test 2 _____ /8
 
-	Test 3 _____ /10 Test 4 _____ /10
+	Test 3 _____ /8  Test 4 _____ /8
 
-	Test 5 _____ /10 Test 6 _____ /10
+	Test 5 _____ /8  Test 6 _____ /8
 
-	Test 7 _____ /10 Test 8 _____ /10
+	Test 7 _____ /8  Test 8 _____ /8
 
-	BONUS: Test 9 _____ /20
+	Test 9 _____ /16
 
 ------------------------------------------------------------------------
 Part 2: Use of Stack Frame
