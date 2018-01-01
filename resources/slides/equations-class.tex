@@ -1,0 +1,69 @@
+\documentclass[psfig,11pt]{article} 
+ 
+\textheight 24.4cm
+\textwidth 16.59cm
+\topmargin -3.0cm
+\oddsidemargin -0.04in
+\evensidemargin -0.04in
+
+\def\normalstretch{1.0}
+\def\talllinestretch{1.8}
+\def\shortlinestretch{0.8}
+\renewcommand{\baselinestretch}{\normalstretch}
+\parskip 1ex
+\renewcommand{\topfraction}{.75}
+\renewcommand{\textfraction}{.20}
+\renewcommand{\floatsep}{0.0pt}
+\renewcommand{\textfloatsep}{1.0cm}
+\renewcommand{\floatpagefraction}{.85}
+
+\def\portindent{\hspace{\parindent}}
+\usepackage[usenames]{color}
+\usepackage{fancyhdr}
+
+\lhead{Equations for Lab CubeStats}
+\chead{}
+\rhead{\hspace{2in}{\Large %Name: 
+\ifsol \color{red} Solution \color{black} \fi  \hspace{3in}}}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+\pagestyle{fancy}
+\newcommand{\REM}[1]{} 
+\newif\ifsol
+%\soltrue
+
+\input epsf
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{fullpage}
+\thispagestyle{fancy}
+
+\begin{document}
+
+\renewcommand{\baselinestretch}{\talllinestretch}  
+\ \\
+\ \\
+%\noindent {\center \bf \Large CMPUT 229 - Quiz \# 2 - Fall 2014}\\
+%\framebox{\Large Name: \ifsol \color{red} Solution \color{black} \fi  \hspace{4in}\hrulefill}
+\renewcommand{\baselinestretch}{\normalstretch}
+
+\newcounter{quest}
+\newenvironment{question}[1][??]{\noindent{\bf Question  \stepcounter{quest}
+\arabic{quest} (\textrm{#1} points): }}
+
+\renewcommand{\theenumi}{\alph{enumi}}
+
+
+\begin{eqnarray}
+C &=& \mathrm{Set\ of\ elements\ that\ are\ in\ the\ specified\ cube} \nonumber \\
+\nonumber\\
+N &=& \{x_i | x_i \in C \wedge x_i < 0\} \nonumber \\
+\nonumber\\
+P &=& \{x_i | x_i \in C \wedge x_i > 0\} \nonumber \\
+\nonumber\\
+\mathrm{\$v0} &=& \left\lfloor \frac{ \sum_{ x_i \in N} x_i}{|N|} \right\rfloor \nonumber \\
+\nonumber\\
+\mathrm{\$v1} &=&  \left\lfloor \frac{ \sum_{ x_i \in P} x_i}{|P|} \right\rfloor \nonumber
+\end{eqnarray}
+\end{document}

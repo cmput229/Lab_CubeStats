@@ -1,0 +1,48 @@
+
+		CMPUT 229 Laboratory Assignment #3
+		==================================
+
+Final Mark:           /100 MARKS TOTAL +20
+                =====
+Part 1:         _____ /80 Correct Statistic Generated
+
+Part 2:		_____ /10 Use of Stack Frame
+
+Part 3:		_____ /10 Style
+
+-------------------------------------------------------------------------
+Part 1: Correct Statistic Generated
+
+ _____ /80 + 20 Bonus
+
+	Test 1 _____ /10 Test 2 _____ /10
+
+	Test 3 _____ /10 Test 4 _____ /10
+
+	Test 5 _____ /10 Test 6 _____ /10
+
+	Test 7 _____ /10 Test 8 _____ /10
+
+	BONUS: Test 9 _____ /20
+
+------------------------------------------------------------------------
+Part 2: Use of Stack Frame
+
+ _____ /10
+
+Full Marks given if:
+	All stack variables referenced using $fp
+	 except to store $fp or increase stack size.
+Deductions: (5 Marks per deduction)
+	stores or loads of registers other than $fp using $sp
+
+------------------------------------------------------------------------
+Part 3: Style
+
+ _____ /10
+
+Some common deductions will include: (5 marks per deduction)
+	No subroutine description
+	No program header
+	No explanation for register usage
+	No block comments
