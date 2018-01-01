@@ -85,9 +85,9 @@ You are given a [main program](resources/code/main-row-first.s) that does the fo
 1. Reads a *k*-dimensional array from a file.
 1. Places the values of the elements of the array in memory following the row-major layout.
 1. Reads descriptions of cubes that appear in the file immediately after the array. For each cube, it:
- 1. initializes four global variables: `totalNeg`, `totalPos`, `countNeg` and `countPos` (see below);
- 1. calls your `CubeStats` subroutine for that cube;
- 1. prints the values returned by `CubeStats`.
+ * initializes four global variables: `totalNeg`, `totalPos`, `countNeg` and `countPos` (see below);
+ * calls your `CubeStats` subroutine for that cube;
+ * prints the values returned by `CubeStats`.
 
  **Reading and understanding this main program is part of the assignment.**
 
