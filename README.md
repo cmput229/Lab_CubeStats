@@ -139,4 +139,6 @@ Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are t
 * 20% for calculating correct statistics for dimensions 4 and up
 
 ## Submission
-There is a single file to be submitted for this lab. The file name should be `lab3.s`, and it should contain only the code for the functions specified above. Make sure to not include a main function in your solution. Use the link provided in the course eClass page for submission. Your solution MUST include the [CMPUT 229 Student Submission License](LICENSE.md) at the top of the file containing your solution and you must include your name in the appropriate place in the license text.
+There is a single file to be submitted for this lab. The file name should be `lab3.s`, and it should contain only the code for the functions specified above. Make sure to not include a `main` function in your solution.
+
+**Please make sure that you follow the link provided in the course eClass page for this lab assignment to get your own private GitHub repo for this lab. To ensure that we have the latest version of your solution, make sure to commit your changes to the repo frequently. Otherwise, you may forget to commit your latest changes by the deadline (which will count as a late lab, and will not be graded). Your solution will be automatically collected via GitHub Classroom by the deadline. Your solution MUST include the [CMPUT 229 Student Submission License](LICENSE.md) at the top of the file containing your solution and you must include your name in the appropriate place in the license text.**
