@@ -36,7 +36,7 @@ The `$fp` register, known as the *frame pointer* is used when referencing values
 The `$sp` register, known as the *stack pointer* is used when adding values to or removing values from the stack because it tracks the current extent of the stack.
 
 ## Assignment
-In this assignment, you will write a MIPS assembly program for the subroutine `CubeStats` that computes both the range and the floor of the average of certain elements of a multi-dimensional array. The elements of interest are specified by a `corner` and the size of the `edge` of a cube. The first parameter that `CubeStats` receives is the number of `dimensions` of the base array where the cube is contained. The second parameter is the `size` of the array. All the dimensions of the base array have the same size. Each element of the base array is a 32-bit integer. The specification for the `CubeStats` function is below:
+In this assignment, you will write a MIPS assembly program for the subroutine `CubeStats` that computes the floor of the average of certain elements of a multi-dimensional array. The elements of interest are specified by a `corner` and the size of the `edge` of a cube. The first parameter that `CubeStats` receives is the number of `dimensions` of the base array where the cube is contained. The second parameter is the `size` of the array. All the dimensions of the base array have the same size. Each element of the base array is a 32-bit integer. The specification for the `CubeStats` function is below:
 
 * `CubeStats`:
   * **Arguments**
