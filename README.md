@@ -141,6 +141,8 @@ Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are t
 ## Submission
 There is a single file to be submitted for this lab. The file name should be `lab3.s`, and it should contain only the code for the functions specified above. Make sure to not include a `main` function in your solution.
 
+You may work together with other students and use outside resources to help complete this lab, however you must **LIST ALL** collaborators and resources used in a comment at the top of your lab3.s file. It is ok to submit the exact same code as your other group members as long as you clearly state in the comment that your code is the same as {ccid} of your collaborators. Each group member should make their own submission in order to get feedback.
+
 **Please make sure that you follow the link provided in the course eClass page for this lab assignment to get your own private GitHub repo for this lab. When prompted, make sure to link your GitHub account to your UAlberta ID, otherwise the teaching staff will not be able to grade your submission. If you do not recall whether or not you have previously linked your account, contact the teaching staff before the submission deadline.**
 
 **To ensure that we have the latest version of your solution, make sure to commit your changes to the repo frequently. Otherwise, you may forget to commit your latest changes by the deadline (which will count as a late lab, and will not be graded). Your solution will be automatically collected via GitHub Classroom by the deadline.**
