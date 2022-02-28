@@ -134,9 +134,11 @@ Here is a [test generator](resources/code/CubeStatsTestGenerator.py), written in
 ## Marking Guide
 Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are too short to be adequately judged for code quality will be given a zero. In particular, your submission will be evaluated as follows:
 * 10% for code cleanliness, readability, and comments
-* 10% for proper use of stack loads or stores (if needed)
+* 10% for proper use of stack loads or stores (**if needed**)
 * 60% for calculating correct statistics for dimensions up to 3
 * 20% for calculating correct statistics for dimensions 4 and up
+
+You are not required to use the stack in your solution, but if you do use it, then you must do so correctly.
 
 ## Submission
 There is a single file to be submitted for this lab. The file name should be `lab3.s`, and it should contain only the code for the functions specified above. Make sure to not include a `main` function in your solution.
