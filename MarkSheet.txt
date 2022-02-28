@@ -26,7 +26,7 @@ Part 1: Correct Statistic Generated
 	Test 9 _____ /16
 
 ------------------------------------------------------------------------
-Part 2: Use of Stack Frame
+Part 2: Use of Stack Frame (if needed)
 
  _____ /10
 
@@ -35,6 +35,9 @@ Full Marks given if:
 	 except to store $fp or increase stack size.
 Deductions: (5 Marks per deduction)
 	stores or loads of registers other than $fp using $sp
+	
+You are not required to use the stack frame in your solution, but if
+you do use it, then you must do so correctly.
 
 ------------------------------------------------------------------------
 Part 3: Style
