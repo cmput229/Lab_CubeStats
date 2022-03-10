@@ -30,9 +30,14 @@ Part 2: Use of Stack Frame (if needed)
 
  _____ /10
 
+This schema **only** applies if the frame pointer is indeed required.
+The frame pointer is used when there are local variables declared midway
+through the procedure so that addressing variables will use a consistent
+computation throughout the function.
+
 Full Marks given if:
 	All stack variables referenced using $fp
-	 except to store $fp or increase stack size.
+	except to store $fp or increase stack size.
 Deductions: (5 Marks per deduction)
 	stores or loads of registers other than $fp using $sp
 	
